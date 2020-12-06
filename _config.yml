@@ -79,39 +79,21 @@ analytics:
 author:
   name             : "Kathryn Cowie"
   avatar           : "profile.png"
-  bio              : "Neuroscience and Health Economics"
+  bio              : "Neuroscience and Health Economics Researcher. Experience in data science and project management."
   location         : "Bethesda, MD"
-  employer         :
+  employer         : "Nested Knowledge"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            : "cowiekw@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "academicpages"
-  google_plus      :
+  github           : "cowiekw"
   keybase          :
-  instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
-  pinterest        :
-  soundcloud       :
+  linkedin         : "https://www.linkedin.com/in/katecowie/"
+  orcid            : "http://orcid.org/0000-0002-4216-851X"
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
   twitter          : "replacethistwitterhandle"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
 
 
 # Reading Files
@@ -181,7 +163,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talks:
+  leadershup:
     output: true
     permalink: /:collection/:path/
 
@@ -233,12 +215,12 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _leadership
   - scope:
       path: ""
-      type: talks
+      type: leadership
     values:
-      layout: talk
+      layout: leadersup
       author_profile: true
       share: true
 
@@ -252,7 +234,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Washington # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
