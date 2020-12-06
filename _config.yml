@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Kathryn Cowie"
   avatar           : "profile.png"
-  bio              : "Neuroscience and Health Economics Researcher. Experience in data science and project management."
+  bio              : "Neuroscience and Health Economics Researcher. Experienced in data science and project management."
   location         : "Bethesda, MD"
   employer         : "Nested Knowledge"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -163,7 +163,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  leadershup:
+  leadership:
     output: true
     permalink: /:collection/:path/
 
@@ -220,7 +220,7 @@ defaults:
       path: ""
       type: leadership
     values:
-      layout: leadersup
+      layout: leadership
       author_profile: true
       share: true
 
